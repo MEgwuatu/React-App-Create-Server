@@ -1,12 +1,19 @@
 import React from 'react'
-import './App.css'
+import './App.css';
+import Navbar from './Component/Navbar';
+import Hero from './Pages/Hero';
 
 
 const App = () => {
   return (
-  <div>
-    <h2>My first application server created by egwuatu modestus</h2>
-  </div>
+    <div>
+      <Navbar />
+      <Hero/>
+    </div>
+
+  
+   
+
   )
 }
 
